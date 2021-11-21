@@ -6,8 +6,18 @@
 
 #include <iostream>
 
+//Encryption
+// 
+//Decryption
+// 
+//Random Cypher
+
+//Add an option to close out of the cypher
+
+
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    
 }
 
