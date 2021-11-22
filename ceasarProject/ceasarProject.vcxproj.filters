@@ -18,5 +18,8 @@
     <ClCompile Include="ceasarProject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cyphersub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
