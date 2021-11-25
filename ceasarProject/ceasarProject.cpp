@@ -23,9 +23,23 @@ int main()
 	std::cout << "Please Select an Option: \n ";
 	std::cout << "1. Enryption\n";
 	std::cout << "2. Decryption\n";
-	std::cout << "3. Close out\n";
+	std::cout << "0. Close out\n";
 	
 	std::cin >> option;
 
+	//What happens when each of these is used?
+	//Each one should call the correct functions  
+	//TO DO: each option should have a way to say hey, do you want to continue?
+
+	if (option = 1){
+		encrypt == true;
+	}
+	if (option = 2) {
+		decrypt == true;
+	}
+	if (option = 0) {
+		return 0;
+		//TO DO : make sure this goes to press anything to exit
+	}
 
 }
