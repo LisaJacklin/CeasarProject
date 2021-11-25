@@ -5,7 +5,7 @@
 //
 
 #include <iostream>
-using namespace std;
+#include "cyphersub.hpp"
 
 //Random Cypher
 
@@ -15,6 +15,17 @@ using namespace std;
 
 int main()
 {
+	std::cout << "----------------------CEASAR PROJECT------------------\n";
+	
+	bool encrypt, decrypt;
+	int option;
+
+	std::cout << "Please Select an Option: \n ";
+	std::cout << "1. Enryption\n";
+	std::cout << "2. Decryption\n";
+	std::cout << "3. Close out\n";
+	
+	std::cin >> option;
 
 
 }

@@ -142,6 +142,9 @@
     <ClCompile Include="ceasarProject.cpp" />
     <ClCompile Include="cyphersub.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cyphersub.hpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
