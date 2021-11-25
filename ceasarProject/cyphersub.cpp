@@ -12,7 +12,7 @@
 //TO DO - ADJUST TO PASS BY REFERENCES 
 //  OR CHANGE WHAT MSG ENCRYPT REQUIRES
 
-void msgEncrypt(char , int) {
+void msgEncrypt() {
 
     //creates a character array? with a max of 100 characters as well as character ch
     //which is the separation of the whatever message was given.
@@ -49,7 +49,7 @@ void msgEncrypt(char , int) {
 
 //allows a message to be decrypted.
 //TO DO - CHANGE WHAT THIS FUNCTION TAKES AS ARGUMENTS
-void msgDecrypt(char, int) {
+void msgDecrypt() {
 
     char message[100], ch;
     int i, key;

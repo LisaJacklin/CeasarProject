@@ -11,9 +11,6 @@
 #include <vector>
 #include <istream>
 
-#include "cyphersub.cpp"
-
-
 void msgEncrypt(char, int);
 
 void msgDecrypt(char, int);
